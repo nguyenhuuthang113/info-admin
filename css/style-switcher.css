@@ -55,7 +55,7 @@
     height: 30px;
     width: 30px;
     border-radius: 50%;
-    border: 1px solid red;
+    border: 1px solid rgb(28, 236, 56);
 }
 .style-switcher .color-1{
     background: #ec1839;
