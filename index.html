@@ -459,7 +459,7 @@ sẻ những điều thú vị về lập trình" />
             var form = $('#form')[0];
             var formData = new FormData(form);
             $.ajax({
-                url: "send.php",
+                url: "mailto: HuuThang030603@gmail.com",
                 type: "POST",
                 data: formData,
                 contentType: false,
@@ -480,7 +480,7 @@ sẻ những điều thú vị về lập trình" />
                     } else {
                         $("#submit").removeClass('disabled');
                         $("#notice").hide();
-                        Swal.fire("Lỗi","Có lỗi hệ thống, vui lòng kiểm tra lại!","error");
+                        Swal.fire("Lỗi","Có lỗi hệ thống, Đang cập nhật!","error");
                         $("#submit").prop('disabled',false).html(" Send Message");
                     }
                 },
